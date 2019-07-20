@@ -2,6 +2,10 @@
 label: landing-page
 hide_body: false
 fields:
+- type: text
+  label: Hero Heading
+  name: heading
+  default: Belkirk College
 - name: title
   label: Title
   type: text
@@ -9,10 +13,6 @@ fields:
   default: ''
   config:
     required: true
-- type: text
-  label: Hero Heading
-  name: heading
-  default: Belkirk College
 - type: text
   name: sub_heading
   label: Hero Sub heading
