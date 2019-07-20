@@ -24,6 +24,9 @@ sections:
   match: "*"
   templates:
   - person
+- type: document
+  path: _data/information.yml
+  label: Contact Information
 - type: directory
   path: _projects
   label: Projects
@@ -31,9 +34,6 @@ sections:
   match: "*"
   templates:
   - project
-- type: document
-  path: _data/information.yml
-  label: Contact Information
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
